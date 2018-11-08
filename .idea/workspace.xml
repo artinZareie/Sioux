@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="The main functions are here">
-      <change beforePath="$PROJECT_DIR$/app/bootstrap/Boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/Boot.php" afterDir="false" />
-    </list>
+    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="The main functions are here" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,6 +185,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Sioux\app\http" />
       <recent name="D:\xampp\htdocs\Deep\Sioux" />
     </key>
   </component>
@@ -221,16 +220,15 @@
       <option name="presentableId" value="Default" />
       <updated>1541628085714</updated>
       <workItem from="1541628086930" duration="4820000" />
-      <workItem from="1541669150764" duration="1212000" />
+      <workItem from="1541669150764" duration="1297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6032000" />
+    <option name="totallyTimeSpent" value="6117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SvgViewer" order="3" />
