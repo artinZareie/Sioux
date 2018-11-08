@@ -13,7 +13,7 @@ class Hash
 {
     public static function make($str, $salt = HASH_SALT): string
     {
-        if (function_exists("App\Libraries\Hash::" . HASH_DEFULT_MAKER)) {
+        if (method_exists(self::class,HASH_DEFULT_MAKER)) {
             switch (HASH_DEFULT_MAKER) {
                 case "crypt":
                     return self::crypt($str, $salt);
@@ -36,7 +36,7 @@ class Hash
         return "";
     }
 
-    public static function bcrypt(string $string, int $type = PASSWORD_BCRYPT, array $options = null): string
+    public static function bcrypt(string $string, int $type = PASSWORD_BCRYPT, array $options = []): string
     {
         return password_hash($string, $type, $options);
     }

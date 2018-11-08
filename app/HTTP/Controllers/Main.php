@@ -2,12 +2,12 @@
 
 
 namespace App\HTTP\Controllers;
-
+use App\Libraries\Hash;
 
 class Main
 {
     public function index()
     {
-        echo "Hello World!!!";
+        echo Hash::make("1222333e22");
     }
 }

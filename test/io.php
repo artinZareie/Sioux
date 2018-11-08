@@ -1,10 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 11/8/2018
- * Time: 2:33 AM
- */
 
 
-echo crypt("pass","...");
+include_once "../App/Libraries/Hash.php";
+
+use App\Libraries\Hash;
+
+echo Hash::crypt("dcadc",Hash::bcrypt("..."));
