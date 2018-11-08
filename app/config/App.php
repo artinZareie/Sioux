@@ -1,10 +1,11 @@
 <?php
 
-namespace Config;
+namespace App\Config;
 
 
 define("SLASH", "\\");
 define("BASE_URL", "http://localhost/");
+define("MAIN_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH);
 define("APP_DIR", __DIR__ . SLASH . ".." . SLASH);
 define("PUBLIC_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH . "public" . SLASH);
 define("CSS_DIR", PUBLIC_DIR . "css" . SLASH);
