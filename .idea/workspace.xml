@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="The main functions are here">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bootstrap/boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/Boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/index.css" afterDir="false" />
-    </list>
+    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="The main functions are here" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +29,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="system.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="system.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/libraries/system.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
@@ -44,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Boot.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Boot.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/bootstrap/Boot.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
@@ -225,12 +219,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541628085714</updated>
       <workItem from="1541628086930" duration="4820000" />
-      <workItem from="1541669150764" duration="618000" />
+      <workItem from="1541669150764" duration="879000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5438000" />
+    <option name="totallyTimeSpent" value="5699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -350,17 +344,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/libraries/system.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/bootstrap/Boot.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/libraries/system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
         </state>
       </provider>
     </entry>
