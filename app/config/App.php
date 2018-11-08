@@ -2,7 +2,7 @@
 
 namespace App\Config;
 
-
+// Directories
 define("SLASH", "\\");
 define("BASE_URL", "http://localhost/");
 define("MAIN_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH);
@@ -11,6 +11,10 @@ define("PUBLIC_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH . "public" . 
 define("CSS_DIR", PUBLIC_DIR . "css" . SLASH);
 define("JS_DIR", PUBLIC_DIR . "js" . SLASH);
 define("IMAGE_DIR", PUBLIC_DIR . "image" . SLASH);
+
+//Hashes config
+define("HASH_SALT","salt!!@#(#)$");
+define("HASH_DEFULT_MAKER","bcrypt");
 
 class App
 {
