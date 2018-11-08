@@ -2,8 +2,8 @@
 
 namespace Bootstrap;
 
-require_once(__DIR__ . "\\..\\config\\App.php");
-require_once(APP_DIR . "libraries" . SLASH . "system.php");
+require_once(__DIR__ . '\\..\\config\\App.php');
+require_once(APP_DIR . 'libraries' . SLASH . "system.php");
 
 use Config\App;
 
