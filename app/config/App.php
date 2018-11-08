@@ -3,12 +3,13 @@
 namespace Config;
 
 
+define("SLASH", "\\");
 define("BASE_URL", "http://localhost/");
-define("APP_DIR", __DIR__ . "/../");
-define("PUBLIC_DIR", __DIR__ . "../../public/");
-define("CSS_DIR", __DIR__ . "../../public/css/");
-define("JS_DIR", __DIR__ . "../../public/js/");
-define("IMAGE_DIR", __DIR__ . "../../public/image/");
+define("APP_DIR", __DIR__ . SLASH . ".." . SLASH);
+define("PUBLIC_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH . "public" . SLASH);
+define("CSS_DIR", PUBLIC_DIR . "css" . SLASH);
+define("JS_DIR", PUBLIC_DIR . "js" . SLASH);
+define("IMAGE_DIR", PUBLIC_DIR . "image" . SLASH);
 
 class App
 {
