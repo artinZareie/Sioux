@@ -4,8 +4,8 @@ namespace Config;
 
 
 define("BASE_URL", "http://localhost/");
-define("APP_DIR", __DIR__ . ("/../");
-define("PUBLIC_DIR", __DIR__ . ("../../public/");
+define("APP_DIR", __DIR__ . "/../");
+define("PUBLIC_DIR", __DIR__ . "../../public/");
 define("CSS_DIR", __DIR__ . "../../public/css/");
 define("JS_DIR", __DIR__ . "../../public/js/");
 define("IMAGE_DIR", __DIR__ . "../../public/image/");
