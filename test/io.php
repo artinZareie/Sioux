@@ -1,8 +1,21 @@
 <?php
+/*
+
+//include_once "../App/Libraries/Hash.php";
+//
+//use App\Libraries\Hash;
+//
+//echo Hash::crypt("dcadc",Hash::bcrypt("..."));
 
 
-include_once "../App/Libraries/Hash.php";
+function hello (callable $callable) {
+    $callable("Hello World!!!");
+}
 
-use App\Libraries\Hash;
+hello(function ($str){
+    $str;
+});*/
 
-echo Hash::crypt("dcadc",Hash::bcrypt("..."));
+for ($i = 1; $i <= 19; $i++) {
+    echo "\"" . $i . ".jpg\"" . " ,";
+}
