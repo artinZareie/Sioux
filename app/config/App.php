@@ -4,7 +4,7 @@ namespace App\Config;
 
 // Directories
 define("SLASH", "\\");
-define("BASE_URL", "http://localhost/");
+define("BASE_URL", "http://localhost/Sioux/");
 define("MAIN_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH);
 define("APP_DIR", __DIR__ . SLASH . ".." . SLASH);
 define("PUBLIC_DIR", __DIR__ . SLASH . ".." . SLASH . ".." . SLASH . "public" . SLASH);

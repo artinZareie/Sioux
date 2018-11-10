@@ -1,21 +1,7 @@
 <?php
-/*
 
-//include_once "../App/Libraries/Hash.php";
-//
-//use App\Libraries\Hash;
-//
-//echo Hash::crypt("dcadc",Hash::bcrypt("..."));
+$matches = [0,1,2,3,4];
 
+$matches = array_slice($matches,1);
 
-function hello (callable $callable) {
-    $callable("Hello World!!!");
-}
-
-hello(function ($str){
-    $str;
-});*/
-
-for ($i = 1; $i <= 19; $i++) {
-    echo "\"" . $i . ".jpg\"" . " ,";
-}
+var_dump($matches);

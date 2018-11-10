@@ -19,4 +19,5 @@ function make_space(int $times)
         for ($i = 1; $i <= $times ; $i++)
             $str .= " ";
     }
+    return $str;
 }

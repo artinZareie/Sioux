@@ -1,6 +1,6 @@
 <?php
 
-require_once(__DIR__ . '\\App\\config\\App.php');
+require_once(__DIR__ . '/App/config/App.php');
 require_once(APP_DIR . 'libraries' . SLASH . "system.php");
 require_once(APP_DIR . "Bootstrap" . SLASH . "AutoLoader.php");
 require_once(APP_DIR . "Config/routes.php");
@@ -13,7 +13,7 @@ echo "What are you looking for ? ";
 foreach ($list as $key => $obj) {
     echo "\n" . make_space(4) . $key . "." . $obj;
 }
-echo "\n";
+echo "\n" . make_space(4);
 
 $opt = 0;
 
@@ -23,10 +23,17 @@ $list_keys = array_keys($list);
 
 if (in_array($opt, $list_keys)) {
     if ($opt == 1) {
+        echo "\n\n\n\n";
         foreach (\App\Libraries\Router::$routes as $key => $val) {
-            echo "\n" . substr(BASE_URL, 0, strlen(BASE_URL) - 2) . $val['uri'] . " : |";
+            echo "{\n" . make_space(4) . "URL : " . rtrim(BASE_URL, '/') . $val['uri'] . "\n" . make_space(4) . "Methods : |";
             foreach ($val['methods'] as $met) {
-                echo make_space(8) . $met . "|";
+                echo $met . "|";
+            }
+            if ($val['type'] == "controller") {
+                echo "\n" . make_space(4) . "Type : " . $val['controller'] . "@" . $val['method'] . "\n}\n";
+            }
+            else {
+                echo "\n" . make_space(4) . "Type : " . "Clouser\n}\n";
             }
         }
     }
