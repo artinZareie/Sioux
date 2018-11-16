@@ -8,6 +8,6 @@ class MainController
 {
     public function index($id)
     {
-        echo "Hello " . $id . " Guy";
+        return "Hello " . $id . " Guy";
     }
 }

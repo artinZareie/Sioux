@@ -31,10 +31,10 @@ class Core
                 $matches = array_slice($matches, 1);
                 if ($route['type'] == 'controller') {
                     $controller = 'App\\HTTP\\Controllers\\' . $route['controller'];
-                    call_user_func_array([new $controller, $route['method']], $matches);
+                    echo call_user_func_array([new $controller, $route['method']], $matches);
                     $founded = true;
                 } elseif ($route['type'] == 'callable') {
-                    call_user_func_array($route['callable'], $matches);
+                    echo call_user_func_array($route['callable'], $matches);
                     $founded = true;
                 } else {
                     make_error("URL type is not valid", "URL (<code>" . $route['uri'] . "</code>) is not Clouser or a Controller Method , please solve it .");

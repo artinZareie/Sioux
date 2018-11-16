@@ -12,8 +12,9 @@ namespace App\Libraries;
 class Router
 {
     public static $routes = [];
+    public static $attr_groupes = [];
 
-    private static function set_route(string $url, $response, array $methods)
+    private static function set_route(string $url, $response, array $methods, array $options = [])
     {
         if (is_callable($response)) {
             array_push(self::$routes,
@@ -31,8 +32,7 @@ class Router
                         ["controller" => $controller, "method" => $method, "uri" => $url, "methods" => $methods, "type" => "controller"]
                     );
                 }
-            }
-            else {
+            } else {
                 make_error("Route <code>" . $url . "</code> controller method has an error", "the controller method must matches with /[.]+\@[.]+/");
             }
         } else {
@@ -40,38 +40,43 @@ class Router
         }
     }
 
-    public static function get(string $url, $response)
+    public static function get(string $url, $response, array $settings = [])
     {
-        self::set_route($url, $response, ["GET"]);
+        self::set_route($url, $response, ["GET", "HEAD"], $settings);
     }
 
-    public static function post(string $url, $response)
+    public static function post(string $url, $response, array $settings = [])
     {
         self::set_route($url, $response, ["POST"]);
     }
 
-    public static function put(string $url, $response)
+    public static function put(string $url, $response, array $settings = [])
     {
-        self::set_route($url, $response, ["PUT"]);
+        self::set_route($url, $response, ["PUT"], $settings);
     }
 
-    public static function path(string $url, $response)
+    public static function path(string $url, $response, array $settings = [])
     {
-        self::set_route($url, $response, ["PATH"]);
+        self::set_route($url, $response, ["PATH"], $settings);
     }
 
-    public static function delete(string $url, $response)
+    public static function options(string $url, $response, array $settings = [])
     {
-        self::set_route($url, $response, ["DELETE"]);
+        self::set_route($url, $response, ["PATH"], $settings);
     }
 
-    public static function all(string $url, $response)
+    public static function delete(string $url, $response, array $settings = [])
+    {
+        self::set_route($url, $response, ["DELETE"], $settings);
+    }
+
+    public static function all(string $url, $response, array $settings = [])
     {
         self::set_route($url, $response, ["GET", "POST", "PUT", "PATCH", "DELETE"]);
     }
 
-    public static function matches(string $url, $response, array $methods)
+    public static function matches(string $url, $response, array $methods, array $settings = [])
     {
-        self::set_route($url, $response, $methods);
+        self::set_route($url, $response, $methods, $settings);
     }
 }
