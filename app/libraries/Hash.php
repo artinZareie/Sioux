@@ -8,13 +8,15 @@
 
 namespace App\Libraries;
 
+use App\Config\Hash as Conf;
+
 
 class Hash
 {
-    public static function make($str, $salt = HASH_SALT): string
+    public static function make($str, $salt = Conf::HASH_SALT): string
     {
-        if (method_exists(self::class,HASH_DEFULT_MAKER)) {
-            switch (HASH_DEFULT_MAKER) {
+        if (method_exists(self::class,Conf::HASH_DEFULT_MAKER)) {
+            switch (Conf::HASH_DEFULT_MAKER) {
                 case "crypt":
                     return self::crypt($str, $salt);
                     break;
@@ -28,11 +30,11 @@ class Hash
                     return self::md5($str);
                     break;
                 default:
-                    make_error("No one of hashes matched !!!", "In the App config you givenn " . HASH_DEFULT_MAKER . " but this function in Hash class does not exists");
+                    make_error("No one of hashes matched !!!", "In the App config you givenn " . Conf::HASH_DEFULT_MAKER . " but this function in Hash class does not exists");
                     break;
             }
         } else
-            make_error("No one of hashes matched !!!", "In the App config you givenn " . HASH_DEFULT_MAKER . " but this function in Hash class does not exists");
+            make_error("No one of hashes matched !!!", "In the App config you givenn " . Conf::HASH_DEFULT_MAKER . " but this function in Hash class does not exists");
         return "";
     }
 
@@ -46,7 +48,7 @@ class Hash
         return password_verify($hashed, $text);
     }
 
-    public static function crypt(string $string, string $salt = HASH_SALT): string
+    public static function crypt(string $string, string $salt = Conf::HASH_SALT): string
     {
         return crypt($string, $salt);
     }

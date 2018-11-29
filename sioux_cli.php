@@ -25,7 +25,7 @@ if (in_array($opt, $list_keys)) {
     if ($opt == 1) {
         echo "\n\n\n\n";
         foreach (\App\Libraries\Router::$routes as $key => $val) {
-            echo "{\n" . make_space(4) . "URL : " . rtrim(BASE_URL, '/') . $val['uri'] . "\n" . make_space(4) . "Methods : |";
+            echo "{\n" . make_space(4) . "URL : " . rtrim(BASE_URL, '/') . (isset($val) ? '/' : '') . @$val['attr']['prefix'] . $val['uri'] . "\n" . make_space(4) . "Methods : |";
             foreach ($val['methods'] as $met) {
                 echo $met . "|";
             }

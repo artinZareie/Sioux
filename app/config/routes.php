@@ -1,17 +1,29 @@
 <?php
 
 use App\Libraries\Router;
+use App\Libraries\Request;
+use App\Libraries\Response;
+use App\Libraries\Crash;
 
-Router::get('/' , function () {
-    return \App\Libraries\Response::json(['artin'=>'baba']);
+
+Router::get('/', function (Request $request) {
+    $tmp_eng = new Crash('home');
+    $tmp_eng->run();
 });
 
-Router::all('/world/(\d+)', 'MainController@index');
-
-Router::all('/hello/(\d+)', function ($id) {
-    return "Hello id " . $id;
+Router::get('/(\d+)/(\d+)', function () {
+    return "
+    <html>
+        <body>
+        <p>hello world !!!</p>
+</body>
+    </html>
+    ";
 });
 
-Router::all('/[a-zA-Z]+/[0-9]+/(\d+)', function ($id) {
-    return "Hello id guy " . $id;
+Router::group(['prefix' => 'hello'], function ($routes) {
+    $routes->get('/world/(\d+)', function (Request $request, int $id) {
+        var_dump($request);
+        make_error($id);
+    });
 });

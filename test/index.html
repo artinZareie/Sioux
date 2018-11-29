@@ -26,10 +26,35 @@
     </style>-->
 </head>
 <body>
-<div class="error" style="border-width:1px;border-style:solid;border-color:#ffb8af;border-radius:5px;background-color:#f8d7da;padding-top:1%;padding-bottom:1%;padding-right:2%;padding-left:2%;font-family:sans-serif;" >
-    <h3 style="color:#8e3456;font-weight:2000;font-size:larger;" >No !!!</h3>
-    <hr style="color:#ffb8af;" >
-    <p class="error-text" style="font-weight:bolder;color:#8e2f36;" >Oh , No</p>
+<div class="error"
+     style="border-width:1px;border-style:solid;border-color:#ffb8af;border-radius:5px;background-color:#f8d7da;padding-top:1%;padding-bottom:1%;padding-right:2%;padding-left:2%;font-family:sans-serif;">
+    <hr style="color:#ffb8af;">
+    <p class="error-text" style="font-weight:bolder;color:#8e2f36;">Oh , No</p>
+    <form action="io.php" method="get">
+        <input type="hidden" name="_method" value="delete"/>
+        <input type="text" id="pp" name="pp" style="background: aqua" value="kcmdlkcm">
+        <input type="text" id="cpp" name="pp" value="kcmdlkcm">
+        <button type="button" id="as">sds</button>
+    </form>
 </div>
+<div class="asas"></div>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $('#as').click(function () {
+            $.ajax({
+                method: $('#cpp').val(),
+                data: {pp: $('#pp').val()},
+                url: 'http://localhost/Sioux/test/io.php',
+                success: function (res) {
+                    $('.asas').html(res);
+                }
+            });
+        });
+    });
+</script>
 </body>
 </html>

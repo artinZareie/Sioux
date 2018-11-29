@@ -12,9 +12,7 @@ define("CSS_DIR", PUBLIC_DIR . "css" . SLASH);
 define("JS_DIR", PUBLIC_DIR . "js" . SLASH);
 define("IMAGE_DIR", PUBLIC_DIR . "image" . SLASH);
 
-//Hashes config
-define("HASH_SALT","salt!!@#(#)$");
-define("HASH_DEFULT_MAKER","bcrypt");
+
 
 class App
 {
