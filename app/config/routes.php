@@ -2,14 +2,11 @@
 
 use App\Libraries\Router;
 use App\Libraries\Request;
-use App\Libraries\Response;
-use App\Libraries\Crash;
 
 
-Router::get('/', function (Request $request) {
-    $tmp_eng = new Crash('home');
-    $tmp_eng->run();
-});
+Router::get('/', 'MainController@index');
+
+Router::redirect('/re', '/12/11');
 
 Router::get('/(\d+)/(\d+)', function () {
     return "
@@ -23,7 +20,6 @@ Router::get('/(\d+)/(\d+)', function () {
 
 Router::group(['prefix' => 'hello'], function ($routes) {
     $routes->get('/world/(\d+)', function (Request $request, int $id) {
-        var_dump($request);
         make_error($id);
     });
 });

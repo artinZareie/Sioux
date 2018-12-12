@@ -2,12 +2,15 @@
 
 
 namespace App\HTTP\Controllers;
+use App\Libraries\ControllerMother;
+use App\Libraries\DB;
 use App\Libraries\Hash;
+use App\Libraries\Request;
 
-class MainController
+class MainController extends ControllerMother
 {
-    public function index($id)
+    public function index(Request $request)
     {
-        return "Hello " . $id . " Guy";
+        vd(DB::select('*', 'users'));
     }
 }

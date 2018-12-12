@@ -83,7 +83,7 @@ class Router
 
     public function put_Method(string $url, $response, array $settings = [])
     {
-        $this->set_route($url, $response, ["PUT"], array_merge($this->options, $settings));
+        $this->set_route($url, $response, ["PUT", "PATCH"], array_merge($this->options, $settings));
     }
 
     public function patch_Method(string $url, $response, array $settings = [])
@@ -112,10 +112,13 @@ class Router
         $this->set_route($url, $response, $methods, array_merge($this->options, $settings));
     }
 
-    public function crud_Method(string $uri, string $controllerName)
+    public function crud_Method(string $uri, string $controllerName, string $id_type = '\d?')
     {
-        if (method_exists('App\\HTTP\\Controllers\\'.$controllerName, 'index')) {
-            Router::get('/', $controllerName.'@index');
+        if (method_exists('App\\HTTP\\Controllers\\' . $controllerName, 'index')) {
+            Router::get('/', $controllerName . '@index');
+            Router::post('/', $controllerName . '@store');
+            Router::delete('/(' . $id_type . ')', $controllerName . '@destroy');
+            Router::put('/(' . $id_type . ')', $controllerName . '@edit');
         }
     }
 
@@ -133,5 +136,15 @@ class Router
         }
         $me = new static(array_merge($options, $this->options));
         $callable($me);
+    }
+
+    public function redirect_Method(string $from, string $to, int $status = Response::HTTP_MOVED_PERMANENTLY, array $methods = ["GET", "POST", "PUT", "PATCH", "DELETE"])
+    {
+        $GLOBALS['____REDIRECTOR_STATUS____'] = $status;
+        $GLOBALS['____REDIRECTOR_TO____'] = $to;
+        Router::matches($from, function () {
+            Response::status_code_message($GLOBALS['____REDIRECTOR_STATUS____']);
+            redirect(url($GLOBALS['____REDIRECTOR_TO____']));
+        }, $methods);
     }
 }

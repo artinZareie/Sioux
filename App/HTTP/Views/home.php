@@ -9,12 +9,7 @@
     </head>
     <body>
         <p style="font-family: 'Snap ITC'">
-            {{username}}
-            {{array.maray.karay}}
-            {{array.maray.0}}
-            {{main 2}}
-            {{main 12}}
-            {{main {{array.maray.karay}}}}
+            <?=$__ControllerPack['variable']?>
         </p>
     </body>
 </html>

@@ -12,5 +12,10 @@ class HTTP
     CORS::class
     ];
 
-    public const VIEW_ERRORS = true;
+    public const VIEW_ERRORS = false;
+    public const ADVANCED_ROUTING = true;
+    public const SIMPLE_ROUTER_DEFULT_CONTROLLER = 'Main';
+    public const SIMPLE_ROUTER_DEFULT_METHOD = 'index';
+//    public const ERROR_404_PAGE_ADDR = 'errors' . SLASH . '404';
+
 }
