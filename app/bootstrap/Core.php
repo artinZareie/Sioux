@@ -19,10 +19,13 @@ class Core
 
     public function make_url()
     {
-        if (HTTP::ADVANCED_ROUTING)
-            $this->advanced_router();
-        else
-            $this->simple_router();
+        if (isset($_SERVER['REQUEST_METHOD'])) {
+            if (HTTP::ADVANCED_ROUTING)
+                $this->advanced_router();
+            else
+                $this->simple_router();
+        } else
+            require_once MAIN_DIR . SLASH . 'sioux_cli.php';
     }
 
     public function advanced_router()
@@ -88,7 +91,7 @@ class Core
 
     public function simple_router_commentator()
     {
-        $url = rtrim($this->check_uri(),'/');
+        $url = rtrim($this->check_uri(), '/');
         $paylod = array_slice(explode('/', $url), 1);
         $controller = (isset($paylod[0])) ? $paylod[0] : HTTP::SIMPLE_ROUTER_DEFULT_CONTROLLER;
         $method = (isset($paylod[1])) ? $paylod[1] : HTTP::SIMPLE_ROUTER_DEFULT_METHOD;
