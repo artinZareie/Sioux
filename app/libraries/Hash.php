@@ -15,7 +15,7 @@ class Hash
 {
     public static function make($str, $salt = Conf::HASH_SALT): string
     {
-        if (method_exists(self::class,Conf::HASH_DEFULT_MAKER)) {
+        if (method_exists(self::class, Conf::HASH_DEFULT_MAKER)) {
             switch (Conf::HASH_DEFULT_MAKER) {
                 case "crypt":
                     return self::crypt($str, $salt);
@@ -61,5 +61,14 @@ class Hash
     public static function sha1(string $string): string
     {
         return sha1($string);
+    }
+
+    public static function is_base64(string $hashed_code): bool
+    {
+        if (base64_encode(base64_decode($hashed_code)) === $hashed_code) {
+            return true;
+        } else {
+            return false;
+        }
     }
 }

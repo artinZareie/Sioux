@@ -1,10 +1,5 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 11/8/2018
- * Time: 3:58 AM
- */
+
 
 namespace App\Libraries;
 

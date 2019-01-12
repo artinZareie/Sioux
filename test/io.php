@@ -1,6 +1,50 @@
 <?php
 
-require_once '../App/Libraries/Boof.php';
+/*class myIterator implements Iterator
+{
+    private $position = 0;
+    private $array = array(
+        "firstelement",
+        "secondelement",
+        "lastelement",
+    );
 
-$boof = new \App\Libraries\Boof(__DIR__.'/../App/HTTP/Views');
-var_dump($boof->view('view'));
+    public function __construct()
+    {
+        $this->position = 0;
+    }
+
+    public function rewind()
+    {
+        $this->position = 0;
+    }
+
+    public function current()
+    {
+        return $this->array[$this->position];
+    }
+
+    public function key()
+    {
+        return $this->position;
+    }
+
+    public function next()
+    {
+        ++$this->position;
+    }
+
+    public function valid()
+    {
+        return isset($this->array[$this->position]);
+    }
+}
+
+$it = new myIterator;
+
+foreach ($it as $key => $value) {
+    var_dump($key, $value);
+    echo "\n";
+}*/
+
+var_dump(gettype("jsdk"));

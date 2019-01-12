@@ -14,12 +14,21 @@ class HPML
     private static $defult_registred_styles = [];
     private static $head_tag = '';
 
-    public static function register_style(string $name, string $style)
+    public static function __callStatic($name, $arguments)
+    {
+        ini_set('xdebug.max_nesting_level', 300);
+        if (substr($name, 0, 6) != 'front_')
+            return self::front_tag($name, ...$arguments);
+        else
+            return self::{$name}(...$arguments);
+    }
+
+    public static function front_register_style(string $name, string $style)
     {
         self::$registred_styles[$name] = $style;
     }
 
-    public static function register_style_by_file(string $file_directory)
+    public static function front_register_style_by_file(string $file_directory)
     {
         if (file_exists(APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . 'registred_styles' . SLASH . $file_directory . '.css'))
             self::$registred_styles[$file_directory] = file_get_contents(APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . 'registred_styles' . SLASH . $file_directory . '.css');
@@ -27,7 +36,7 @@ class HPML
             make_error("File $file_directory.css in " . APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . 'registred_styles' . SLASH . " does not exists.");
     }
 
-    public static function set_registred_style_as_defult($style_name)
+    public static function front_set_registred_style_as_defult($style_name)
     {
         if (isset(self::$registred_styles[$style_name]))
             array_push(self::$defult_registred_styles, self::$registred_styles[$style_name]);
@@ -35,7 +44,7 @@ class HPML
             make_error("This style is not registed yet!!!", "Fatal: The $style_name style is not registred!!!");
     }
 
-    public static function get_registred_style(string $style_name): string
+    public static function front_get_registred_style(string $style_name): string
     {
         if (isset(self::$registred_styles[$style_name]))
             return '<style>' . self::$registred_styles[$style_name] . '</style>';
@@ -43,7 +52,17 @@ class HPML
             return make_error("This style is not registed yet!!!", "Fatal: The $style_name style is not registred!!!");
     }
 
-    public static function starter_template(\Closure $content, array $html_tag_attr = []): string
+    public static function front_get_all_registred_styles()
+    {
+        return self::$registred_styles;
+    }
+
+    public static function front_get_all_defult_registred_styles()
+    {
+        return self::$defult_registred_styles;
+    }
+
+    public static function front_starter_template(\Closure $content, array $html_tag_attr = []): string
     {
         $attr = "";
         foreach ($html_tag_attr as $key => $value) {
@@ -60,7 +79,7 @@ class HPML
         return $tmp;
     }
 
-    public static function tag(string $tag_name, array $attributes = [], \Closure $content): string
+    public static function front_tag(string $tag_name, array $attributes = [], \Closure $content): string
     {
         $attr_parser = '';
         $as_liner = false;
@@ -89,7 +108,7 @@ class HPML
         return '';
     }
 
-    public static function make_head_tag(\Closure $content)
+    public static function front_make_head_tag(\Closure $content)
     {
         $tmp = '';
         $tmp .= '<head>';

@@ -42,9 +42,11 @@ function uri_name(string $name)
         return false;
 }
 
-function vd($experssion)
+function vd(...$experssion)
 {
-    var_dump($experssion);
+    foreach ($experssion as $exp) {
+        var_dump($exp);
+    }
     die();
 }
 
@@ -78,16 +80,6 @@ function view_raw(string $file, array $data = [])
         require_once APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . $file . '.php';
     } elseif (HTTP::VIEW_ERRORS)
         make_error("In Raw View " . APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . $file . '.crs.php' . " is not a file", "Directory " . APP_DIR . 'HTTP' . SLASH . 'Views' . SLASH . $file . '.php' . " does not exist.");
-}
-
-function view_boof(string $view, array $env = [], $layoutENV = [], array $funcs = [], string $starter = '{{', string $ender = '}}')
-{
-    $file = APP_DIR . 'HTTP' . SLASH . 'Views';
-    $boof = new App\Libraries\Boof($file, '', $starter, $ender);
-    foreach ($funcs as $func => $caller) {
-        $boof->addFunction($funcs, $caller);
-    }
-    return $boof->view($view, $env, $layoutENV);
 }
 
 function redirect(string $to)
