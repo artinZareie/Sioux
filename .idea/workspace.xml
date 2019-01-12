@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Config/Database.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/HTTP/Controllers/Crud.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/HTTP/Models/MainModel.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/HTTP/Views/errors/404.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/HTTP/Views/home.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/HTTP/Views/view.tpl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Libraries/Boof.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Libraries/CrudController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Libraries/DB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Libraries/ModelMother.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/App/Libraries/Persian.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Sioux.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Sioux.iml" afterDir="false" />
+    <list default="true" id="9b01259b-de02-46bc-9ffe-888a5b85eb09" name="Default" comment="&#10;w">
+      <change afterPath="$PROJECT_DIR$/App/Config/Package.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/HTTP/Views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Anlog/Analog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Anlog/Handler/File.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Cookie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/MiddleWareController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Packages/AngularStrong.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Packages/CLI.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/App/Libraries/Session.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bf78e9ee-f00c-425c-9617-4bdcc2f9d136.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App/Config/HTTP.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Config/HTTP.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/HTTP/Views/home.crs.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/HTTP/Views/home.crs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Libraries/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Libraries/ControllerMother.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/App/Libraries/Crash.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Libraries/Crash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Config/Hash.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Config/Hash.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Libraries/Boof.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Libraries/HPML.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Libraries/HPML.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/HTTP/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/HTTP/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bootstrap/AutoLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/AutoLoader.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/bootstrap/Boot.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/Boot.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bootstrap/Core.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/bootstrap/Core.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/libraries/Middleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Middleware.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/libraries/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/Router.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/libraries/system.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/libraries/system.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sioux_cli.php" beforeDir="false" afterPath="$PROJECT_DIR$/sioux_cli.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/io.php" beforeDir="false" afterPath="$PROJECT_DIR$/test/io.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,6 +32,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -69,35 +68,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Config/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-              <folding>
-                <element signature="e#7#32#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/App/HTTP/Controllers/MainController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="486">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
               <folding>
-                <element signature="e#40#75#0#PHP" expanded="true" />
+                <element signature="e#41#76#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ControllerMother.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App/Libraries/ControllerMother.php">
+      <file leaf-file-name="Cookie.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Libraries/Cookie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="504">
+              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTTP.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Config/HTTP.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,20 +101,35 @@
       <file leaf-file-name="MainModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/App/HTTP/Models/MainModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+            <state relative-caret-position="180">
+              <caret line="10" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/App/Libraries/DB.php">
+      <file leaf-file-name="Hash.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Libraries/Hash.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Libraries/Model.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="252">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="e#34#72#0#PHP" expanded="true" />
-              </folding>
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiddleWareController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Libraries/MiddleWareController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-90">
+              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -128,8 +139,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -157,6 +168,12 @@
       <find>constan</find>
       <find>Boof</find>
       <find>string_</find>
+      <find>function</find>
+      <find>HPML::</find>
+      <find>File</find>
+      <find>Res</find>
+      <find>Response</find>
+      <find>$app</find>
     </findStrings>
     <replaceStrings>
       <replace>,</replace>
@@ -169,6 +186,11 @@
       <replace>[$1]</replace>
       <replace>[$1][</replace>
       <replace>[</replace>
+      <replace>function sys_</replace>
+      <replace>function front_</replace>
+      <replace>front_</replace>
+      <replace>HPML::front_</replace>
+      <replace>$this-&gt;app</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -178,46 +200,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/App/HTTP/Middleware/CORS.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Controller.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Middleware/AgeMiddleware.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Views/home.csr.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Views/home.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Exception/ErrorException.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Exception/Formatter.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Exception/Frame.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Exception/FrameCollection.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Exception/Inspector.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/CallbackHandler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/HandlerInterface.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/Handler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/JsonResponseHandler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/PlainTextHandler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Whoops/Handler/PrettyPageHandler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Handler/Handler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Handler/CallbackHandler.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/Inspector.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/FrameCollection.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/Frame.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/ErrorException.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Response.php" />
-        <option value="$PROJECT_DIR$/App/Bootstrap/AutoLoader.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Views/view.boof.php" />
-        <option value="$PROJECT_DIR$/App/Config/App.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/system.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Views/errors/404.php" />
-        <option value="$PROJECT_DIR$/App/Bootstrap/Boot.php" />
-        <option value="$PROJECT_DIR$/App/Bootstrap/Core.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/CrudController.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Controllers/Crud.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Router.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Middleware.php" />
-        <option value="$PROJECT_DIR$/App/Libraries/Boof.php" />
-        <option value="$PROJECT_DIR$/App/Config/HTTP.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Views/home.crs.php" />
         <option value="$PROJECT_DIR$/App/Libraries/Crash.php" />
-        <option value="$PROJECT_DIR$/test/io.php" />
         <option value="$PROJECT_DIR$/App/HTTP/Views/view.tpl" />
         <option value="$PROJECT_DIR$/App/Libraries/ModelMother.php" />
         <option value="$PROJECT_DIR$/App/Libraries/Persian.php" />
@@ -226,9 +209,48 @@
         <option value="$PROJECT_DIR$/App/Config/routes.php" />
         <option value="$PROJECT_DIR$/App/Libraries/ControllerMother.php" />
         <option value="$PROJECT_DIR$/App/HTTP/Models/MainModel.php" />
-        <option value="$PROJECT_DIR$/App/HTTP/Controllers/MainController.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/143e8caf-b389-457a-838b-7f96b0f1536d/console_1.sql" />
         <option value="$PROJECT_DIR$/App/Libraries/DB.php" />
+        <option value="$PROJECT_DIR$/App/Bootstrap/Core.php" />
+        <option value="$PROJECT_DIR$/App/HTTP/Views/registred_styles/public.css" />
+        <option value="$PROJECT_DIR$/App/Libraries/angularTemplateEngine/src/Bazalt/Angular.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/DOMNode.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Module.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Parse.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Scope.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgIf.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgModel.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgBind.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Aanlog/Handler/File.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgInclude.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Aanlog/Analog.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Anlog/Handler/File.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Anlog/Analog.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/system.php" />
+        <option value="$PROJECT_DIR$/test/a.php" />
+        <option value="$PROJECT_DIR$/App/Bootstrap/AutoLoader.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Router.php" />
+        <option value="$PROJECT_DIR$/sioux_cli.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Packages/CLI.php" />
+        <option value="$PROJECT_DIR$/App/Config/Package.php" />
+        <option value="$USER_HOME$/Desktop/php-angular-master/examples/index.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgApp.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgRepeat.php" />
+        <option value="$PROJECT_DIR$/App/HTTP/Views/index.html" />
+        <option value="$PROJECT_DIR$/App/Libraries/HPML.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Packages/AngularStrong.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Session.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Model.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/MiddleWareController.php" />
+        <option value="$PROJECT_DIR$/App/Config/HTTP.php" />
+        <option value="$PROJECT_DIR$/App/Config/App.php" />
+        <option value="$PROJECT_DIR$/test/io.php" />
+        <option value="$PROJECT_DIR$/App/Config/Hash.php" />
+        <option value="$PROJECT_DIR$/App/Bootstrap/Boot.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Hash.php" />
+        <option value="$PROJECT_DIR$/App/Libraries/Cookie.php" />
+        <option value="$PROJECT_DIR$/App/HTTP/Controllers/MainController.php" />
       </list>
     </option>
   </component>
@@ -306,6 +328,13 @@
               <item name="Sioux" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="HTTP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Sioux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sioux" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HTTP" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -320,7 +349,22 @@
               <item name="Sioux" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sioux" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="HTTP" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="registred_styles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Sioux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sioux" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Sioux" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sioux" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="App" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Libraries" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Packages" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Sioux" type="b2602c69:ProjectViewProjectNode" />
@@ -347,7 +391,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="sys&#9;FILE&#9;file://D:/xampp/htdocs/Sioux/App/Libraries/system.php&#10;http&#9;FILE&#9;file://D:/xampp/htdocs/Sioux/App/Config/HTTP.php" />
+    <property name="SearchEverywhereHistoryKey" value="hash&#9;null&#9;null&#10;core&#9;FILE&#9;file://D:/xampp/htdocs/Sioux/App/Bootstrap/Core.php&#10;sys&#9;FILE&#9;file://D:/xampp/htdocs/Sioux/App/Libraries/system.php&#10;http&#9;FILE&#9;file://D:/xampp/htdocs/Sioux/App/Config/HTTP.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../New folder/MFW2" />
@@ -358,12 +402,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\Sioux\App\Config" />
       <recent name="D:\xampp\htdocs\Sioux\App\Libraries" />
+      <recent name="D:\xampp\htdocs\Sioux\App\Config" />
       <recent name="D:\xampp\htdocs\Sioux\app\http" />
       <recent name="D:\xampp\htdocs\Deep\Sioux" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\Sioux\App\Libraries\angularTemplateEngine" />
       <recent name="D:\xampp\htdocs\Sioux\App\HTTP\Views" />
       <recent name="D:\xampp\htdocs\Sioux" />
     </key>
@@ -434,7 +479,13 @@
       <workItem from="1544125365217" duration="6081000" />
       <workItem from="1544181016792" duration="610000" />
       <workItem from="1544192024450" duration="3098000" />
-      <workItem from="1544388033413" duration="13896000" />
+      <workItem from="1544388033413" duration="14744000" />
+      <workItem from="1544796173812" duration="60000" />
+      <workItem from="1544798357510" duration="264000" />
+      <workItem from="1545138362596" duration="45000" />
+      <workItem from="1546954652613" duration="22229000" />
+      <workItem from="1547318075614" duration="690000" />
+      <workItem from="1547318997552" duration="5093000" />
     </task>
     <task id="LOCAL-00001" summary="&#10;w">
       <created>1543497156143</created>
@@ -443,11 +494,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543497156143</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&#10;w">
+      <created>1546960458377</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546960458377</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100908000" />
+    <option name="totallyTimeSpent" value="130137000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -455,57 +513,59 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="SvgViewer" order="3" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="11" weight="0.32909605" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="NativeScript" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="NativeScript" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32909605" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32909605" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32909605" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32909605" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49717513" visible="true" weight="0.2" />
       <window_info anchor="bottom" id="Docker" order="7" />
       <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
       <window_info id="Structure" order="1" sideWeight="0.50282484" side_tool="true" weight="0.2" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
+      <window_info anchor="bottom" id="Thumbnails" order="15" weight="0.32909605" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32909605" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32909605" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32909605" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="16" weight="0.32909605" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
     </layout>
-    <layout-to-restore>
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
-      <window_info anchor="bottom" id="NativeScript" order="9" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="12" weight="0.32909605" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858758" visible="true" weight="0.2" />
-      <window_info id="Structure" order="1" sideWeight="0.50141245" side_tool="true" weight="0.24966443" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SvgViewer" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32909605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.32909605" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32909605" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32909605" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -521,263 +581,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Exception/Inspector.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Exception/FrameCollection.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Exception/Frame.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Exception/Formatter.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/Handler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/CallbackHandler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/HandlerInterface.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/JsonResponseHandler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/PlainTextHandler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Whoops/Handler/PrettyPageHandler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Exception/Formatter.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Handler/Handler.php" />
-    <entry file="file://$PROJECT_DIR$/App/Libraries/vendor/filp/whoops/src/Whoops/Run.php" />
-    <entry file="file://$PROJECT_DIR$/App/Config/Hash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Response.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="209" column="32" lean-forward="true" selection-start-line="209" selection-start-column="32" selection-end-line="209" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Hash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Bootstrap/AutoLoader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Config/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/errors/404.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Bootstrap/Boot.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Router.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="93" selection-start-line="93" selection-end-line="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/CrudController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Controllers/Crud.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding>
-            <element signature="e#41#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Bootstrap/Core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#115#141#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Request.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Middleware/CORS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="e#123#152#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Middleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/system.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="56" selection-start-line="56" selection-end-line="59" selection-end-column="1" />
-          <folding>
-            <element signature="e#68#93#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Crash.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="517">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/view.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Boof.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6595">
-          <caret line="297" column="20" lean-forward="true" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Config/HTTP.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/home.crs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bf78e9ee-f00c-425c-9617-4bdcc2f9d136/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/143e8caf-b389-457a-838b-7f96b0f1536d/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Middleware/AgeMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/ModelMother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/Persian.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/fgsf.inc">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../New folder/MFW2/app/libraries/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="165" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="165" selection-end-column="5" />
-          <folding>
-            <element signature="e#110#144#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../New folder/MFW2/app/config/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="36" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Config/Database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/io.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
-          <folding>
-            <element signature="e#7#32#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Models/MainModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/App/Libraries/ControllerMother.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://143e8caf-b389-457a-838b-7f96b0f1536d/schema/sioux/table/users">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -792,22 +595,353 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/App/HTTP/Controllers/MainController.php">
+    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/view.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="e#40#75#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="396">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/ControllerMother.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App/Libraries/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="621">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
           <folding>
             <element signature="e#34#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-368">
+          <caret line="566" column="21" selection-start-line="566" selection-start-column="21" selection-end-line="566" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/registred_styles/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/DOMNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Parse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Scope.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Boof.php" />
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Anlog/Analog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="180" column="74" selection-start-line="180" selection-start-column="74" selection-end-line="180" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Anlog/Handler/File.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/a.php" />
+    <entry file="file://$PROJECT_DIR$/App/Libraries/system.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Bootstrap/Core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="445">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sioux_cli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Packages/CLI.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.041/index.php" />
+    <entry file="file://$PROJECT_DIR$/App/Config/Package.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="e#31#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Bootstrap/AutoLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding>
+            <element signature="e#7#32#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/dom/dom_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1038" column="20" selection-start-line="1038" selection-start-column="20" selection-end-line="1038" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgIf.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgInclude.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/php-angular-master/examples/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Module.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/HPML.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgRepeat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Packages/AngularStrong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#43#77#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Bazalt/Angular/Directive/NgBind.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HTTP/Views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Config/App.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="50" lean-forward="true" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/io.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="597" column="9" selection-start-line="597" selection-start-column="9" selection-end-line="597" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Bootstrap/Boot.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="34" column="51" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h3#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Config/Hash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/MiddleWareController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-90">
+          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Hash.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Config/HTTP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HTTP/Models/MainModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="5" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Libraries/Cookie.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/HTTP/Controllers/MainController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding>
+            <element signature="e#41#76#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
